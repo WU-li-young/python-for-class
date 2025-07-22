@@ -32,8 +32,8 @@ python 的註解為 #
 score1 = 99      #int
 score2 = 99.9    #float
 score3 = "score" #str
-score 4 = 'a'    #char
-score 5 = 0      #bool
+score4 = 'a'    #char
+score5 = 0      #bool
 ```
 
 ### 判斷變數型態:
