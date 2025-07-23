@@ -200,8 +200,37 @@ print(string[0:8:2])
 ```
 HloW
 ```
-## range
 
+### 陣列屬性
+|方法 |說明 |範例 |
+|---|---|---|
+|len()|取得元素數目  |len(lst)|
+|min()|取得元素最小值|min(lst)|
+|max()|取得元素最大值|max(lst)|
+|sum()|取得串列元素和|sum(lst)|
+
+### 更改陣列值
+|方法 |說明 |範例 |
+|---|---|---|
+|.index(n)|第一次n索引值|lst.index(1)|
+|.count(n)|n出現次數|lst.count(1)|
+|.append(n)|將n加到陣列最後|lst.append(1)|
+|.extend(n)|將n加到最後(n可為陣列)|lst.extend([1,2,3])|
+|.insert(n1,n2)|將n2加到n1的位置|lst.insert(3,8)|
+
+### 刪除陣列
+|方法 |說明 |範例 |
+|---|---|---|
+|.pop(n)|移除第n項(若未寫n為最後一項)|lst.pop()|
+|.remove(n)|移除第一次的n|lst.remove(1)|
+
+### 翻轉陣列
+|方法 |說明 |範例 |
+|---|---|---|
+|.reverse()|反轉陣列順序|lst.reverse()|
+|.sort(n,True)|True為將陣列n由小到大排列(預設為True)|lst.sort([1,2,3])|
+
+## range
 `range (初始值,終止值)` 
 說明:由初始值開始直到終止值-1
 ## 迴圈
